@@ -7,7 +7,7 @@ SRC_DIR = src
 OBJ_DIR = obj
 SOURCES = $(wildcard $(SRC_DIR)/*.c)
 OBJECTS = $(SOURCES:$(SRC_DIR)/%.c=$(OBJ_DIR)/%.o)
-NAME := ./part_of_the_matrix
+NAME := ./way_home
 
 all: $(NAME)
 
